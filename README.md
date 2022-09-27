@@ -1,4 +1,4 @@
-# About
+# About The Ecommerce Project
 It is an E-commerce website which have functionality to do online transactions and search different products based on the category and the name.
 
 It has other features like filtering the products based on categories, showing and printing order details of a user. 
