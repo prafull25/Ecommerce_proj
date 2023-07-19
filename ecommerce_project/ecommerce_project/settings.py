@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'store',
     'stripe',
-    'crispy_forms',
+    "crispy_forms",
+    "crispy_bootstrap4",
 
 ]
 
@@ -138,8 +139,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'static', 'media')
 STRIPE_PUBLISHABLE_KEY = 'pk_test_ggOtvgDlSX8a1oe0VJh7O5he005sVDrfRY'
 STRIPE_SECRET_KEY = 'sk_test_SOBWIp2613cVIomjUMuWQX0L00E7pSyxNo'
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
+CRISPY_TEMPLATE_PACK = "bootstrap4"
 # EMAIL_HOST: 'smtp.mailgun.org'
 # EMAIL_PORT: '587'
 # EMAIL_USE_TLS = True
